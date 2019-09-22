@@ -13,19 +13,22 @@ This program reads a file containing a list of clothes, sorts them by size and p
 
 ## Examples
 ```
->java -jar target/clothes-1.0-SNAPSHOT.jar src/test/resources/clothes.json
-Parsing src/test/resources/clothes.xml...
- 
- Brand		Type		Size		Color
- -------------------------------------------
- Unknown     T-shirt     XS          Grey        
- H&M         Sweater     S           Black       
- Adidas      Shirt       M           Pink        
- Ullared     Sweater     M           Red         
- Vans        Tanktop     L           White       
- Gymshark    Sweatpants  L           Grey        
- Nike        T-shirt     L           White       
- FILA        Hoodie      XL          Black
+$ java -jar target/clothes-1.0-SNAPSHOT.jar src/test/resources/clothes.csv
+Parsing src/test/resources/clothes.csv...
+
+Brand           Type            Size            Color
+----------------------------------------------------
+Calvin Klein    T-shirt         XS              Grey
+H&M             Sweater         S               Black
+Riley           Shirt           M               Blue
+Adidas          Shirt           M               Pink
+Ullared         Sweater         M               Red
+Tiger           T-shirt         L               White
+Vans            Tanktop         L               White
+Gymshark        Sweatpants      L               Grey
+Nike            T-shirt         L               White
+FILA            Hoodie          XL              Black
+
  ```
  
 
